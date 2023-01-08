@@ -6,6 +6,31 @@
   <title>Document</title>
 </head>
 <body>
+  <div id="apiData">
+    <!-- <div class="content">
+      <div class="title">My Api title</div>
+      <div class="body">My API body goes in here</div>
+    </div> -->
+    <div class="loading">
+      Loading...
+    </div>
+  </div>
+
+  <style>
+    .apiData{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .content{
+      padding: 10px 12px;
+      box-shadow: 3px 3px 6px #ece;
+    }
+
+    .loading{
+      display: none;
+    }
+  </style>
   <script src="main.js"></script>
 </body>
 </html>
